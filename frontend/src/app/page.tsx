@@ -15,22 +15,19 @@ export default function Home() {
           borderRadius: '8px', // Optional: Rounding the corners of the outline
         }}
       >
-        {/* You can add a logo or title here */}
         <Typography variant="h6" component="div">
           Study Helper
         </Typography>
         <Button
           variant="contained"
           color="primary"
-          sx={{ textTransform: 'none' }} // Removes uppercase text
+          sx={{ textTransform: 'none' }}
         >
           Login
         </Button>
       </Toolbar>
 
-      {/* Rest of your content */}
       <div>
-        {/* Add your main content here */}
       </div>
     </div>
   );
